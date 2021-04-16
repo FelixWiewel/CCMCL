@@ -8,4 +8,28 @@ In order to install all required packages automatically run `pip install -r requ
 
 ## Running the code
 
-Each experiment can be run using the corresponding python script. For example in order to run the experiment for experience replay on the CIFAR10 dataset run `python run_experience_replay_CIFAR10.py`. 
+Each experiment for a certain method and dataset can be run using the corresponding python script. Results will be saved in the `logs` folder.
+
+### Experience Replay
+- MNIST dataset:        `python run_experience_replay_MNIST.py`
+- FashionMNIST dataset: `python run_experience_replay_FashionMNIST.py`
+- SVHN dataset:         `python run_experience_replay_SVHN.py`
+- CIFAR10 dataset:      `python run_experience_replay_CIFAR10.py`
+
+### BiC
+- MNIST dataset:        `python run_BiC_MNIST.py`
+- FashionMNIST dataset: `python run_BiC_FashionMNIST.py`
+- SVHN dataset:         `python run_BiC_SVHN.py`
+- CIFAR10 dataset:      `python run_BiC_CIFAR10.py`
+
+### Dataset Condensation
+- MNIST dataset:        `python run_compressed_buffer_MNIST.py`
+- FashionMNIST dataset: `python run_compressed_buffer_FashionMNIST.py`
+- SVHN dataset:         `python run_compressed_buffer_SVHN.py`
+- CIFAR10 dataset:      `python run_compressed_buffer_CIFAR10.py`
+
+### Condensed Composite Memory Continual Learning
+- MNIST dataset:        `python run_compositional_buffer_MNIST.py`
+- FashionMNIST dataset: `python run_compositional_buffer_FashionMNIST.py`
+- SVHN dataset:         `python run_compositional_buffer_SVHN.py`
+- CIFAR10 dataset:      `python run_compositional_buffer_CIFAR10.py`
