@@ -1,6 +1,6 @@
 # Condensed Composite Memory Continual Learning
 
-This repository contains all the code used for the creation of the paper "Condensed Composite Memory Continual Learning" accepted for publication at IJCNN 2021.
+This repository contains all the code used for the creation of the paper "Condensed Composite Memory Continual Learning" published at IJCNN 2021 (https://ieeexplore.ieee.org/document/9533491).
 
 ## Requirements
 
